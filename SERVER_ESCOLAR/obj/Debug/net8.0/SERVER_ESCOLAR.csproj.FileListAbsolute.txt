@@ -134,3 +134,4 @@ C:\Users\IDpcdell\Desktop\.NET\API_ESCOLAR\SERVER_ESCOLAR\obj\Debug\net8.0\refin
 C:\Users\IDpcdell\Desktop\.NET\API_ESCOLAR\SERVER_ESCOLAR\obj\Debug\net8.0\SERVER_ESCOLAR.pdb
 C:\Users\IDpcdell\Desktop\.NET\API_ESCOLAR\SERVER_ESCOLAR\obj\Debug\net8.0\SERVER_ESCOLAR.genruntimeconfig.cache
 C:\Users\IDpcdell\Desktop\.NET\API_ESCOLAR\SERVER_ESCOLAR\obj\Debug\net8.0\ref\SERVER_ESCOLAR.dll
+C:\Users\IDpcdell\Desktop\.NET\API_ESCOLAR\SERVER_ESCOLAR\obj\Debug\net8.0\SERVER_ESCOLAR.sourcelink.json
