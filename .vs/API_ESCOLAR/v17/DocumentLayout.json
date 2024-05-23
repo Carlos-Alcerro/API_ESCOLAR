@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\religion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\religion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\pagomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\pagomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\paramrangonota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\paramrangonota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\pagoalumnorealizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\pagoalumnorealizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\pagoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\pagoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\historicapagomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\historicapagomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\municipio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\municipio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\interes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\interes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\historicacalificaciones2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\historicacalificaciones2x2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\historicapagoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\historicapagoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\historicamatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\historicamatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\historicacalificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\historicacalificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Religion.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Religion.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Religion.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Religion.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Religion.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:27:04.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParamRangoNota.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\ParamRangoNota.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\ParamRangoNota.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\ParamRangoNota.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\ParamRangoNota.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:21:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagoAlumnoRealizado.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoAlumnoRealizado.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\PagoAlumnoRealizado.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoAlumnoRealizado.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\PagoAlumnoRealizado.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:18:33.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagoAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoAlumno.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\PagoAlumno.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoAlumno.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\PagoAlumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:16:35.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagoMatricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoMatricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\PagoMatricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\PagoMatricula.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\PagoMatricula.cs*",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:12:42.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Municipio.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Municipio.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Municipio.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Municipio.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Municipio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:10:28.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:45:49.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Jornada.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:45:04.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Interes.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Interes.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Interes.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Interes.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Interes.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:39:13.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoricaPagoMatricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaPagoMatricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\HistoricaPagoMatricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaPagoMatricula.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\HistoricaPagoMatricula.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:31:12.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HistoricaCalificaciones2x2.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaCalificaciones2x2.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\HistoricaCalificaciones2x2.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaCalificaciones2x2.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\HistoricaCalificaciones2x2.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:27:40.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Agencia.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Agencia.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Agencia.cs*",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:28:01.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistoricaPagoAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaPagoAlumno.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\HistoricaPagoAlumno.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaPagoAlumno.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\HistoricaPagoAlumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:35:05.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HistoricaMatricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaMatricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\HistoricaMatricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaMatricula.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\HistoricaMatricula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:07:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HistoricaCalificaciones4x4.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaCalificaciones4x4.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\HistoricaCalificaciones4x4.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\HistoricaCalificaciones4x4.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\HistoricaCalificaciones4x4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:32:46.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
