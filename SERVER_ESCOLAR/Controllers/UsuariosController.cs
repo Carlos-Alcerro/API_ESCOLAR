@@ -51,13 +51,19 @@ namespace SERVER_ESCOLAR.Controllers
 
             var usuarioNuevo = new Usuario
             {
-                Id = user.Id,
+                IdUsuario = user.IdUsuario,
                 Correo = user.Correo,
                 Nombres = user.Nombres,
                 Apellidos= user.Apellidos,
                 Direccion = user.Direccion,
-                Ciudad = user.Ciudad,
-                Rol = user.Rol 
+                IdRol= user.IdRol,
+                IdSequencia=user.IdSequencia,
+                UsuarioBloqueado=user.UsuarioBloqueado,
+                FechaNacimiento=user.FechaNacimiento,
+                UsuarioId=user.UsuarioId,
+                Dni=user.Dni,
+                Sexo=user.Sexo,
+                Telefono=user.Telefono
            };
 
             return Ok( usuarioNuevo );
@@ -83,8 +89,14 @@ namespace SERVER_ESCOLAR.Controllers
                 usuarioExiste.Contrasena = passwordHasher.HashPassword(usuarioExiste, usuario.Contrasena);
             }
             usuarioExiste.Direccion = usuario.Direccion;
-            usuarioExiste.Ciudad = usuario.Ciudad;
-            usuarioExiste.Rol = usuario.Rol;
+            usuarioExiste.Dni = usuario.Dni;
+            usuarioExiste.Telefono = usuario.Telefono;
+            usuarioExiste.FechaNacimiento = usuario.FechaNacimiento;
+            usuarioExiste.Sexo = usuario.Sexo;
+            usuarioExiste.UsuarioBloqueado = usuario.UsuarioBloqueado;
+            usuarioExiste.UsuarioId = usuario.UsuarioId;
+            usuarioExiste.IdRol = usuario.IdRol;
+            usuarioExiste.IdSequencia = usuario.IdSequencia;
 
 
             await _context.SaveChangesAsync();
@@ -116,12 +128,19 @@ namespace SERVER_ESCOLAR.Controllers
 
             var nuevoUsuario = new Usuario
             {
-                Apellidos = usuario.Apellidos,
-                Nombres = usuario.Nombres,
-                Direccion = usuario.Direccion,
+                IdUsuario = usuario.IdUsuario,
                 Correo = usuario.Correo,
-                Rol = usuario.Rol,
-                Ciudad = usuario.Ciudad,
+                Nombres = usuario.Nombres,
+                Apellidos = usuario.Apellidos,
+                Direccion = usuario.Direccion,
+                IdRol = usuario.IdRol,
+                IdSequencia = usuario.IdSequencia,
+                UsuarioBloqueado = usuario.UsuarioBloqueado,
+                FechaNacimiento = usuario.FechaNacimiento,
+                UsuarioId = usuario.UsuarioId,
+                Dni = usuario.Dni,
+                Sexo = usuario.Sexo,
+                Telefono = usuario.Telefono
             };
 
             return Ok(nuevoUsuario);

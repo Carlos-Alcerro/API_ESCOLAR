@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SERVER_ESCOLAR\\Controllers",
+    "\\SERVER_ESCOLAR\\Models"
   ],
   "SelectedNode": "\\API_ESCOLAR.sln",
   "PreviewInSolutionExplorer": false
