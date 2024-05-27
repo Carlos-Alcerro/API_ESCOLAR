@@ -1,0 +1,297 @@
+﻿@page "/alumno"
+@page "/alumno/{idAlumnoEditar:int}"
+
+@using BlazorCrud.Shared;
+@using BlazorCrud.Client.Services;
+
+@inject IAlumnoService alumnoService;
+@inject NavigationManager navegacion;
+
+
+<h3>@titulo</h3>
+
+<EditForm Model="alumno" OnValidSubmit="onValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+
+    <div class="mb-3">
+        <label class="form-label">ID</label>
+        <InputNumber class="form-control" @bind-Value="alumno.id"></InputNumber>
+        <ValidationMessage For="@(() => alumno.id)"></ValidationMessage>
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label">Primer Nombre</label>
+        <InputText class="form-control" @bind-Value="alumno.primer_nombre"></InputText>
+        <ValidationMessage For="@(() => alumno.primer_nombre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Segundo Nombre</label>
+        <InputText class="form-control" @bind-Value="alumno.segundo_nombre"></InputText>
+        <ValidationMessage For="@(() => alumno.segundo_nombre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Primer Apellido</label>
+        <InputText class="form-control" @bind-Value="alumno.primer_apellido"></InputText>
+        <ValidationMessage For="@(() => alumno.primer_apellido)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Segundo Apellido</label>
+        <InputText class="form-control" @bind-Value="alumno.segundo_apellido"></InputText>
+        <ValidationMessage For="@(() => alumno.segundo_apellido)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Genero</label>
+        <InputText class="form-control" @bind-Value="alumno.genero"></InputText>
+        <ValidationMessage For="@(() => alumno.genero)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Lugar Nacimiento</label>
+        <InputText class="form-control" @bind-Value="alumno.lugar_nacimiento"></InputText>
+        <ValidationMessage For="@(() => alumno.lugar_nacimiento)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Fecha Nacimiento</label>
+        <InputDate class="form-control" @bind-Value="alumno.fecha_nacimiento"></InputDate>
+        <ValidationMessage For="@(() => alumno.fecha_nacimiento)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Direccion</label>
+        <InputText class="form-control" @bind-Value="alumno.direccion"></InputText>
+        <ValidationMessage For="@(() => alumno.direccion)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Region</label>
+        <InputText class="form-control" @bind-Value="alumno.region"></InputText>
+        <ValidationMessage For="@(() => alumno.region)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Escuela Procedencia</label>
+        <InputText class="form-control" @bind-Value="alumno.escuela_procedencia"></InputText>
+        <ValidationMessage For="@(() => alumno.escuela_procedencia)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Anio Ingreso</label>
+        <InputText class="form-control" @bind-Value="alumno.anio_ingreso"></InputText>
+        <ValidationMessage For="@(() => alumno.anio_ingreso)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Numero Identidad</label>
+        <InputText class="form-control" @bind-Value="alumno.numero_identidad"></InputText>
+        <ValidationMessage For="@(() => alumno.numero_identidad)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tiene Hermanos</label>
+        <InputText class="form-control" @bind-Value="alumno.tiene_hermanos"></InputText>
+        <ValidationMessage For="@(() => alumno.tiene_hermanos)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Numero Miembros</label>
+        <InputNumber class="form-control" @bind-Value="alumno.numero_miembros"></InputNumber>
+        <ValidationMessage For="@(() => alumno.numero_miembros)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Nombre Madre</label>
+        <InputText class="form-control" @bind-Value="alumno.nombre_madre"></InputText>
+        <ValidationMessage For="@(() => alumno.nombre_madre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Profesion Madre</label>
+        <InputText class="form-control" @bind-Value="alumno.profesion_madre"></InputText>
+        <ValidationMessage For="@(() => alumno.profesion_madre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Lugar Trabajo Madre</label>
+        <InputText class="form-control" @bind-Value="alumno.lugar_trabajo_madre"></InputText>
+        <ValidationMessage For="@(() => alumno.lugar_trabajo_madre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono Madre</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono_madre"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono_madre)"></ValidationMessage>
+    </div>
+
+     <div class="mb-3">
+        <label class="form-label">Celular Madre</label>
+        <InputText class="form-control" @bind-Value="alumno.celular_madre"></InputText>
+        <ValidationMessage For="@(() => alumno.celular_madre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Nombre Padre</label>
+        <InputText class="form-control" @bind-Value="alumno.nombre_padre"></InputText>
+        <ValidationMessage For="@(() => alumno.nombre_padre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Profesion Padre</label>
+        <InputText class="form-control" @bind-Value="alumno.profesion_padre"></InputText>
+        <ValidationMessage For="@(() => alumno.profesion_padre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Lugar Trabajo Padre</label>
+        <InputText class="form-control" @bind-Value="alumno.lugar_trabajo_padre"></InputText>
+        <ValidationMessage For="@(() => alumno.lugar_trabajo_padre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono Padre</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono_padre"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono_padre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Celular Padre</label>
+        <InputText class="form-control" @bind-Value="alumno.celular_padre"></InputText>
+        <ValidationMessage For="@(() => alumno.celular_padre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ausencia Nombre1</label>
+        <InputText class="form-control" @bind-Value="alumno.ausencia_nombre1"></InputText>
+        <ValidationMessage For="@(() => alumno.ausencia_nombre1)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ausencia Nombre2</label>
+        <InputText class="form-control" @bind-Value="alumno.ausencia_nombre2"></InputText>
+        <ValidationMessage For="@(() => alumno.ausencia_nombre2)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ausencia Nombre3</label>
+        <InputText class="form-control" @bind-Value="alumno.ausencia_nombre3"></InputText>
+        <ValidationMessage For="@(() => alumno.ausencia_nombre3)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Parentesco1</label>
+        <InputText class="form-control" @bind-Value="alumno.parentesco1"></InputText>
+        <ValidationMessage For="@(() => alumno.parentesco1)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Parentesco2</label>
+        <InputText class="form-control" @bind-Value="alumno.parentesco2"></InputText>
+        <ValidationMessage For="@(() => alumno.parentesco2)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Parentesco3</label>
+        <InputText class="form-control" @bind-Value="alumno.parentesco3"></InputText>
+        <ValidationMessage For="@(() => alumno.parentesco3)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono Ausencia1</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono_ausencia1"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono_ausencia1)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono Ausencia2</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono_ausencia2"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono_ausencia2)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefono Ausencia3</label>
+        <InputText class="form-control" @bind-Value="alumno.telefono_ausencia3"></InputText>
+        <ValidationMessage For="@(() => alumno.telefono_ausencia3)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Estado Civil Padres</label>
+        <InputText class="form-control" @bind-Value="alumno.estado_civil_padres"></InputText>
+        <ValidationMessage For="@(() => alumno.estado_civil_padres)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Con Quien Vive Alumno</label>
+        <InputText class="form-control" @bind-Value="alumno.con_quien_vive_alumno"></InputText>
+        <ValidationMessage For="@(() => alumno.con_quien_vive_alumno)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Observaciones</label>
+        <InputText class="form-control" @bind-Value="alumno.observaciones"></InputText>
+        <ValidationMessage For="@(() => alumno.observaciones)"></ValidationMessage>
+    </div>
+
+    <button class="btn btn-primary" type="submit">
+        @btnTexto
+    </button>
+
+    <a class="btn btn-warning" href="alumnos">Volver</a>
+
+</EditForm>
+
+@code {
+    [Parameter]
+    public int idAlumnoEditar { get; set; } = 0;
+
+    string titulo = string.Empty;
+    string btnTexto = string.Empty;
+
+    AlumnoDTO alumno = new AlumnoDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(idAlumnoEditar != 0)
+        {
+            alumno = await alumnoService.Buscar(idAlumnoEditar);
+            btnTexto = "Actualizar Alumno";
+            titulo = "Editar Alumno";
+        }
+        else
+        {
+            btnTexto = "Guardar Alumno";
+            titulo = "Nuevo Alumno";
+        }
+
+    }
+
+    private async Task onValidSubmit()
+    {
+        int idDevuelto = 0;
+        if(idAlumnoEditar == 0)
+        {
+            idDevuelto = await alumnoService.Guardar(alumno);
+            if (idDevuelto != 0)
+            {
+                navegacion.NavigateTo("/alumnos");
+            }
+        }
+        else
+        {
+            idDevuelto = await alumnoService.Editar(alumno);
+            if (idDevuelto != 0)
+            {
+                navegacion.NavigateTo("/alumnos");
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+﻿@page "/alumnos"
+
+
+@using BlazorCrud.Shared;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using BlazorCrud.Client.Services;
+
+@inject SweetAlertService Swal;
+@inject IAlumnoService alumnoService;
+
+
+<h3>Alumnos</h3>
+
+<!------------------Botón para crear nuevo alumno--------------------->
+<a class="btn btn-success btn-sm mb-3" href="alumno">Nuevo Alumno</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th><small>ID</small></th>
+            <th><small>Primer Nombre</small></th>
+            <th><small>Segundo Nombre</small></th>
+            <th><small>Primer Apellido</small></th>
+            <th><small>Segundo Apellido</small></th>
+            <th><small>Genero</small></th>
+            <th><small>Lugar Nacimiento</small></th>
+            <th><small>Fecha Nacimiento</small></th>
+            <th><small>Direccion</small></th>
+            <th><small>Telefono</small></th>
+            <th><small>Region</small></th>
+            <th><small>Escuela Procedencia</small></th>
+            <th><small>Anio Ingreso</small></th>
+            <th><small>Numero Identidad</small></th>
+            <th><small>Tiene Hermanos</small></th>
+            <th><small>Numero Miembros</small></th>
+            <th><small>Nombre Madre</small></th>
+            <th><small>Profesion Madre</small></th>
+            <th><small>Lugar Trabajo Madre</small></th>
+            <th><small>Telefono Madre</small></th>
+            <th><small>Celular Madre</small></th>
+            <th><small>Nombre Padre</small></th>
+            <th><small>Profesion Padre</small></th>
+            <th><small>Lugar Trabajo Padre</small></th>
+            <th><small>Telefono Padre</small></th>
+            <th><small>Celular Padre</small></th>
+            <th><small>Ausencia Nombre1</small></th>
+            <th><small>Ausencia Nombre2</small></th>
+            <th><small>Ausencia Nombre3</small></th>
+            <th><small>Parentesco1</small></th>
+            <th><small>Parentesco2</small></th>
+            <th><small>Parentesco3</small></th>
+            <th><small>Telefono Ausencia1</small></th>
+            <th><small>Telefono Ausencia2</small></th>
+            <th><small>Telefono Ausencia3</small></th>
+            <th><small>Estado Civil Padres</small></th>
+            <th><small>Con Quien Vive Alumno</small></th>
+            <th><small>Observaciones</small></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if(listaAlumno == null)
+        {
+            <tr>
+                <td colspan="38" align="center">
+                    <img style="width:50px" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif"/>
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach(var item in listaAlumno)
+            {
+                <tr>
+                    <td><small>@item.id</small></td>
+                    <td><small>@item.primer_nombre</small></td>
+                    <td><small>@item.segundo_nombre</small></td>
+                    <td><small>@item.primer_apellido</small></td>
+                    <td><small>@item.segundo_apellido</small></td>
+                    <td><small>@item.genero</small></td>
+                    <td><small>@item.lugar_nacimiento</small></td>
+                    <td><small>@item.fecha_nacimiento</small></td>
+                    <td><small>@item.direccion</small></td>
+                    <td><small>@item.telefono</small></td>
+                    <td><small>@item.region</small></td>
+                    <td><small>@item.escuela_procedencia</small></td>
+                    <td><small>@item.anio_ingreso</small></td>
+                    <td><small>@item.numero_identidad</small></td>
+                    <td><small>@item.tiene_hermanos</small></td>
+                    <td><small>@item.numero_miembros</small></td>
+                    <td><small>@item.nombre_madre</small></td>
+                    <td><small>@item.profesion_madre</small></td>
+                    <td><small>@item.lugar_trabajo_madre</small></td>
+                    <td><small>@item.telefono_madre</small></td>
+                    <td><small>@item.celular_madre</small></td>
+                    <td><small>@item.nombre_padre</small></td>
+                    <td><small>@item.profesion_padre</small></td>
+                    <td><small>@item.lugar_trabajo_padre</small></td>
+                    <td><small>@item.telefono_padre</small></td>
+                    <td><small>@item.celular_padre</small></td>
+                    <td><small>@item.ausencia_nombre1</small></td>
+                    <td><small>@item.ausencia_nombre2</small></td>
+                    <td><small>@item.ausencia_nombre3</small></td>
+                    <td><small>@item.parentesco1</small></td>
+                    <td><small>@item.parentesco2</small></td>
+                    <td><small>@item.parentesco3</small></td>
+                    <td><small>@item.telefono_ausencia1</small></td>
+                    <td><small>@item.telefono_ausencia2</small></td>
+                    <td><small>@item.telefono_ausencia3</small></td>
+                    <td><small>@item.estado_civil_padres</small></td>
+                    <td><small>@item.con_quien_vive_alumno</small></td>
+                    <td><small>@item.observaciones</small></td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="alumno/@item.id">
+                            <i class="oi oi-pencil"></i>
+                        </a>
+                        <button type="button" class="btn btn-danger btn-sm ms-2" @onclick="(() => Eliminar(item.id))">
+                            <i class="oi oi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+@code {
+    List<AlumnoDTO>? listaAlumno = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaAlumno = await alumnoService.Lista();
+    }
+
+    //Eliminar Alumno
+    private async Task Eliminar(int id)
+    {
+        var resultado = await Swal.FireAsync(new SweetAlertOptions
+        {
+            Title = "Eliminar Alumno", 
+            Text = "Deseas eliminar el empleado?",
+            Icon = SweetAlertIcon.Question,
+            ShowCancelButton = true
+        });
+
+        if (resultado.IsConfirmed)
+        {
+            var eliminado = await alumnoService.Eliminar(id);
+            if (eliminado)
+            {
+                listaAlumno = listaAlumno!.FindAll(e => e.id != id);
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\bin\Debug\net8.0\BlazorCrud.Shared.deps.json
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\bin\Debug\net8.0\BlazorCrud.Shared.dll
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\bin\Debug\net8.0\BlazorCrud.Shared.pdb
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.AssemblyInfoInputs.cache
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.AssemblyInfo.cs
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.csproj.CoreCompileInputs.cache
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.dll
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\refint\BlazorCrud.Shared.dll
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\BlazorCrud.Shared.pdb
+D:\CONSISA\SISTEMA ESCOLAR\SistemaEscolarBlazor\BlazorCrud.Shared\obj\Debug\net8.0\ref\BlazorCrud.Shared.dll

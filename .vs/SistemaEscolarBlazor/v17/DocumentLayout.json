@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\blazorcrud.client\\pages\\alumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|solutionrelative:blazorcrud.client\\pages\\alumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\blazorcrud.client\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|solutionrelative:blazorcrud.client\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618D32D-2CA4-4589-88D4-0F47E9410895}|AlumnosCrud.Server\\AlumnosCrud.Server.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\alumnoscrud.server\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618D32D-2CA4-4589-88D4-0F47E9410895}|AlumnosCrud.Server\\AlumnosCrud.Server.csproj|solutionrelative:alumnoscrud.server\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\blazorcrud.client\\services\\ialumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|solutionrelative:blazorcrud.client\\services\\ialumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\blazorcrud.client\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68BD712A-DCAB-41A9-977E-46F09952D4DD}|BlazorCrud.Client\\BlazorCrud.Client.csproj|solutionrelative:blazorcrud.client\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04EB300A-9A59-4960-B22F-D78299452006}|BlazorCrud.Shared\\BlazorCrud.Shared.csproj|d:\\consisa\\sistema escolar\\sistemaescolarblazor\\blazorcrud.shared\\alumnodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04EB300A-9A59-4960-B22F-D78299452006}|BlazorCrud.Shared\\BlazorCrud.Shared.csproj|solutionrelative:blazorcrud.shared\\alumnodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoDTO.cs",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Shared\\AlumnoDTO.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Shared\\AlumnoDTO.cs",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Shared\\AlumnoDTO.cs",
+              "RelativeToolTip": "BlazorCrud.Shared\\AlumnoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:35:11.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\AlumnosCrud.Server\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "AlumnosCrud.Server\\Controllers\\AlumnoController.cs",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\AlumnosCrud.Server\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "AlumnosCrud.Server\\Controllers\\AlumnoController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwFoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:34:33.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAlumnoService.cs",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Services\\IAlumnoService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Client\\Services\\IAlumnoService.cs",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Services\\IAlumnoService.cs",
+              "RelativeToolTip": "BlazorCrud.Client\\Services\\IAlumnoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:34:11.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnoService.cs",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Services\\AlumnoService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Client\\Services\\AlumnoService.cs",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Services\\AlumnoService.cs",
+              "RelativeToolTip": "BlazorCrud.Client\\Services\\AlumnoService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAzwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:33:31.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alumno.razor",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Pages\\Alumno.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.Client\\Pages\\Alumno.razor",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Pages\\Alumno.razor",
+              "RelativeToolTip": "BlazorCrud.Client\\Pages\\Alumno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:46:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alumnos.razor",
+              "DocumentMoniker": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Pages\\Alumnos.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.Client\\Pages\\Alumnos.razor",
+              "ToolTip": "D:\\CONSISA\\SISTEMA ESCOLAR\\SistemaEscolarBlazor\\BlazorCrud.Client\\Pages\\Alumnos.razor",
+              "RelativeToolTip": "BlazorCrud.Client\\Pages\\Alumnos.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T20:03:31.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
