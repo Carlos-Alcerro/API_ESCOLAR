@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\calificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\calificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\alumnoconducta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\alumnoconducta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\asignaturaretrasada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\asignaturaretrasada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Agencia.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs",
-              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Agencia.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs*",
-              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Agencia.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Title": "Calificaciones4x4.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T03:16:48.446Z",
+              "WhenOpened": "2024-05-27T04:21:12.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AlumnoConducta.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AlumnoConducta.cs",
-              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\AlumnoConducta.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AlumnoConducta.cs*",
-              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\AlumnoConducta.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "AsignaturaRetrasada.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T03:14:54.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Banco.cs",
-              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Banco.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Banco.cs",
-              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Banco.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T03:14:48.133Z",
+              "WhenOpened": "2024-05-27T04:21:12.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",

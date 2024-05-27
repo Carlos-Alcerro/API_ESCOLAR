@@ -6,7 +6,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Alumno
     {
-        public int Id { get; set; }
+        public int IdAlumno { get; set; }
 
         public DateTime FechaNacimiento;
 
