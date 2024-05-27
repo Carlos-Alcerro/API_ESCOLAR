@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace SERVER_ESCOLAR.Models
 {
-    public class Alumno_x_transporte
+    public class AlumnoTransporte
     {
         public int id_transporte_entrada { get; set; }
         public int id_transporte_salida { get; set; }

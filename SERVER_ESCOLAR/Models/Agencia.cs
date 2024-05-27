@@ -3,18 +3,21 @@ using System.Runtime.CompilerServices;
 
 namespace SERVER_ESCOLAR.Models
 {
-    public class Alumno_conducta
+    public class Agencia
     {
-        public int Id { get; set; }
+        public int IdAgencia { get; set; }
+
+        [MaxLength(50, ErrorMessage = "El campo CodigoAgencia debe tener maximo 50 caracteres ")]
+        [MinLength(5, ErrorMessage = "El campo CodigoAgencia no debe tener menos de 5 caracteres")]
+        public string CodigoAgencia { get; set; } = null!;
+
         public int IdBanco { get; set; }
+        public Banco Banco{ get; set; }  // Propiedad de navegación
+
         public int IdSequencia { get; set; }
 
-        [MaxLength(255,ErrorMessage ="El campo agencia debe tener maximo 255 caracteres ")]
-        [MinLength(5,ErrorMessage ="El campo agencia no debe tener menos de 5 caracteres")]
-        public string Agencia { get; set; } = null!;
-
-        [MaxLength(255, ErrorMessage = "El campo codigo_agencia debe tener maximo 255 caracteres ")]
-        [MinLength(5, ErrorMessage = "El campo codigo_agencia no debe tener menos de 5 caracteres")]
-        public string CodigoAgencia { get; set; } = null!;
+        [MaxLength(50, ErrorMessage = "El campo DescpAgencia debe tener maximo 50 caracteres ")]
+        [MinLength(5, ErrorMessage = "El campo DescpAgencia no debe tener menos de 5 caracteres")]
+        public string DescpAgencia { get; set; } = null!;
     }
 }
