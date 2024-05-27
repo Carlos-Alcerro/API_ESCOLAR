@@ -19,8 +19,19 @@ namespace SERVER_ESCOLAR.Controllers
 
         [HttpPost]
         [Route("crear")]
-        public async Task<IActionResult>CrearUsuario(Usuario usuario)
+        public async Task<IActionResult>CrearUsuario([FromBody] Usuario usuario)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            int idRolPorDefecto = 1;
+
+            if(usuario.IdRol==null)
+            {
+                usuario.IdRol = idRolPorDefecto;
+            }
 
             var passworHash = new PasswordHasher<Usuario>();
             usuario.Contrasena = passworHash.HashPassword(usuario, usuario.Contrasena);
@@ -57,10 +68,9 @@ namespace SERVER_ESCOLAR.Controllers
                 Apellidos= user.Apellidos,
                 Direccion = user.Direccion,
                 IdRol= user.IdRol,
-                IdSequencia=user.IdSequencia,
+                Rol=user.Rol,
                 UsuarioBloqueado=user.UsuarioBloqueado,
                 FechaNacimiento=user.FechaNacimiento,
-                UsuarioId=user.UsuarioId,
                 Dni=user.Dni,
                 Sexo=user.Sexo,
                 Telefono=user.Telefono
@@ -71,38 +81,36 @@ namespace SERVER_ESCOLAR.Controllers
 
         [HttpPut]
         [Route("actualizar")]
-        public async Task<IActionResult>ActualizarUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> ActualizarUsuario(int id, [FromBody] Usuario usuario)
         {
-            var passworHash = new PasswordHasher<Usuario>();
             var usuarioExiste = await _context.Usuarios.FindAsync(id);
-            if(usuarioExiste == null)
+            if (usuarioExiste == null)
             {
                 return NotFound();
             }
-            usuarioExiste.Nombres = usuario.Nombres;
-            usuarioExiste.Apellidos = usuario.Apellidos;
-            usuarioExiste.Correo = usuario.Correo;
+
+            usuarioExiste.Nombres = usuario.Nombres ?? usuarioExiste.Nombres;
+            usuarioExiste.Apellidos = usuario.Apellidos ?? usuarioExiste.Apellidos;
+            usuarioExiste.Correo = usuario.Correo ?? usuarioExiste.Correo;
+            usuarioExiste.Direccion = usuario.Direccion ?? usuarioExiste.Direccion;
+            usuarioExiste.Dni = usuario.Dni ?? usuarioExiste.Dni;
+            usuarioExiste.Telefono = usuario.Telefono ?? usuarioExiste.Telefono;
+            usuarioExiste.FechaNacimiento = usuario.FechaNacimiento != default ? usuario.FechaNacimiento : usuarioExiste.FechaNacimiento;
+            usuarioExiste.Sexo = usuario.Sexo ?? usuarioExiste.Sexo;
+            usuarioExiste.UsuarioBloqueado = usuario.UsuarioBloqueado != default ? usuario.UsuarioBloqueado : usuarioExiste.UsuarioBloqueado;
+            usuarioExiste.IdRol = usuario.IdRol != default ? usuario.IdRol : usuarioExiste.IdRol;
 
             if (!string.IsNullOrEmpty(usuario.Contrasena))
             {
                 var passwordHasher = new PasswordHasher<Usuario>();
                 usuarioExiste.Contrasena = passwordHasher.HashPassword(usuarioExiste, usuario.Contrasena);
             }
-            usuarioExiste.Direccion = usuario.Direccion;
-            usuarioExiste.Dni = usuario.Dni;
-            usuarioExiste.Telefono = usuario.Telefono;
-            usuarioExiste.FechaNacimiento = usuario.FechaNacimiento;
-            usuarioExiste.Sexo = usuario.Sexo;
-            usuarioExiste.UsuarioBloqueado = usuario.UsuarioBloqueado;
-            usuarioExiste.UsuarioId = usuario.UsuarioId;
-            usuarioExiste.IdRol = usuario.IdRol;
-            usuarioExiste.IdSequencia = usuario.IdSequencia;
-
 
             await _context.SaveChangesAsync();
 
             return Ok();
         }
+
 
         [HttpGet]
         [Route("listar")]
@@ -134,10 +142,8 @@ namespace SERVER_ESCOLAR.Controllers
                 Apellidos = usuario.Apellidos,
                 Direccion = usuario.Direccion,
                 IdRol = usuario.IdRol,
-                IdSequencia = usuario.IdSequencia,
                 UsuarioBloqueado = usuario.UsuarioBloqueado,
                 FechaNacimiento = usuario.FechaNacimiento,
-                UsuarioId = usuario.UsuarioId,
                 Dni = usuario.Dni,
                 Sexo = usuario.Sexo,
                 Telefono = usuario.Telefono

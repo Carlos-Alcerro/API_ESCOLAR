@@ -12,7 +12,7 @@ namespace SERVER_ESCOLAR.Models
         public string CodigoAgencia { get; set; } = null!;
 
         public int IdBanco { get; set; }
-        public Banco Banco{ get; set; }  // Propiedad de navegación
+        public Banco Banco { get; set; } = null!; // Propiedad de navegación
 
         public int IdSequencia { get; set; }
 

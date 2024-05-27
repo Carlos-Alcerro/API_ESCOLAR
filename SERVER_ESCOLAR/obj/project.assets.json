@@ -4522,19 +4522,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ernesto\\.nuget\\packages\\": {}
+    "C:\\Users\\IDpcdell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj",
+      "projectUniqueName": "C:\\Users\\IDpcdell\\Desktop\\Proyecto_IS\\API_ESCOLAR\\SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj",
       "projectName": "SERVER_ESCOLAR",
-      "projectPath": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj",
-      "packagesPath": "C:\\Users\\Ernesto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\obj\\",
+      "projectPath": "C:\\Users\\IDpcdell\\Desktop\\Proyecto_IS\\API_ESCOLAR\\SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj",
+      "packagesPath": "C:\\Users\\IDpcdell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IDpcdell\\Desktop\\Proyecto_IS\\API_ESCOLAR\\SERVER_ESCOLAR\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ernesto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IDpcdell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4542,7 +4542,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4555,11 +4554,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4600,7 +4594,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\SERVER_ESCOLAR",
     "\\SERVER_ESCOLAR\\Controllers",
+    "\\SERVER_ESCOLAR\\Migrations",
     "\\SERVER_ESCOLAR\\Models"
   ],
-  "SelectedNode": "\\API_ESCOLAR.sln",
+  "SelectedNode": "\\SERVER_ESCOLAR\\Models\\Agencia.cs",
   "PreviewInSolutionExplorer": false
 }
