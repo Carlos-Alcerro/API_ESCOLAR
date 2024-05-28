@@ -6,6 +6,6 @@
     "\\SERVER_ESCOLAR\\Migrations",
     "\\SERVER_ESCOLAR\\Models"
   ],
-  "SelectedNode": "\\SERVER_ESCOLAR\\Models\\Agencia.cs",
+  "SelectedNode": "\\SERVER_ESCOLAR\\Controllers\\UsuariosController.cs",
   "PreviewInSolutionExplorer": false
 }

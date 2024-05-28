@@ -6,6 +6,24 @@ using SERVER_ESCOLAR.Models;
 
 namespace SERVER_ESCOLAR.Controllers
 {
+
+    public class UsuarioDto
+    {
+        public int IdUsuario { get; set; }
+        public string Correo { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public string Direccion { get; set; }
+        public int? IdRol { get; set; }
+        public string Rol { get; set; } 
+        public int UsuarioBloqueado { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public string Dni { get; set; }
+        public string Sexo { get; set; }
+        public string Telefono { get; set; }
+    }
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -47,7 +65,7 @@ namespace SERVER_ESCOLAR.Controllers
         [Route("login")]
         public async Task<IActionResult> LoginUsuario(string correo, string contrasena)
         {
-              var user = await _context.Usuarios.FirstOrDefaultAsync(u=>u.Correo==correo);
+              var user = await _context.Usuarios.Include(u=>u.Rol).FirstOrDefaultAsync(u=>u.Correo==correo);
             if(user == null)
             {
                 return Unauthorized();
@@ -60,21 +78,21 @@ namespace SERVER_ESCOLAR.Controllers
                 return Unauthorized();
             }
 
-            var usuarioNuevo = new Usuario
+            var usuarioNuevo = new UsuarioDto
             {
                 IdUsuario = user.IdUsuario,
                 Correo = user.Correo,
                 Nombres = user.Nombres,
-                Apellidos= user.Apellidos,
+                Apellidos = user.Apellidos,
                 Direccion = user.Direccion,
-                IdRol= user.IdRol,
-                Rol=user.Rol,
-                UsuarioBloqueado=user.UsuarioBloqueado,
-                FechaNacimiento=user.FechaNacimiento,
-                Dni=user.Dni,
-                Sexo=user.Sexo,
-                Telefono=user.Telefono
-           };
+                IdRol = user.IdRol,
+                Rol = user.Rol.DescripcionRol,
+                UsuarioBloqueado = user.UsuarioBloqueado,
+                FechaNacimiento = user.FechaNacimiento,
+                Dni = user.Dni,
+                Sexo = user.Sexo,
+                Telefono = user.Telefono
+            };
 
             return Ok( usuarioNuevo );
          }
@@ -114,10 +132,28 @@ namespace SERVER_ESCOLAR.Controllers
 
         [HttpGet]
         [Route("listar")]
-        public async Task<ActionResult<IEnumerable<Usuario>>> MostrarUsuarios()
+        public async Task<ActionResult<IEnumerable<UsuarioDto>>> MostrarUsuarios()
         {
-            var usuarios = await _context.Usuarios.ToListAsync();
-            if (usuarios == null)
+            var usuarios = await _context.Usuarios
+                .Include(u => u.Rol)
+                .Select(u => new UsuarioDto
+                {
+                    IdUsuario = u.IdUsuario,
+                    Correo = u.Correo,
+                    Nombres = u.Nombres,
+                    Apellidos = u.Apellidos,
+                    Direccion = u.Direccion,
+                    IdRol = u.IdRol,
+                    Rol = u.Rol.DescripcionRol,
+                    UsuarioBloqueado = u.UsuarioBloqueado,
+                    FechaNacimiento = u.FechaNacimiento,
+                    Dni = u.Dni,
+                    Sexo = u.Sexo,
+                    Telefono = u.Telefono
+                })
+                .ToListAsync();
+
+            if (usuarios == null || !usuarios.Any())
             {
                 return NotFound();
             }
@@ -125,16 +161,19 @@ namespace SERVER_ESCOLAR.Controllers
             return Ok(usuarios);
         }
 
+
         [HttpGet]
-        [Route("usuario")]
-        public async Task<ActionResult<IEnumerable<Usuario>>> MostrarUsuario(int id) {
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if(usuario == null)
+        [Route("usuario/{id}")]
+        public async Task<ActionResult<Usuario>> MostrarUsuario(int id)
+        {
+            // Usar FirstOrDefaultAsync con una expresión lambda para buscar el usuario por id
+            var usuario = await _context.Usuarios.Include(u => u.Rol).FirstOrDefaultAsync(u => u.IdUsuario == id);
+            if (usuario == null)
             {
                 return NotFound();
             }
 
-            var nuevoUsuario = new Usuario
+            var nuevoUsuario = new UsuarioDto
             {
                 IdUsuario = usuario.IdUsuario,
                 Correo = usuario.Correo,
@@ -146,11 +185,11 @@ namespace SERVER_ESCOLAR.Controllers
                 FechaNacimiento = usuario.FechaNacimiento,
                 Dni = usuario.Dni,
                 Sexo = usuario.Sexo,
-                Telefono = usuario.Telefono
+                Telefono = usuario.Telefono,
+                Rol = usuario.Rol.DescripcionRol
             };
 
             return Ok(nuevoUsuario);
-
         }
 
         [HttpDelete]
