@@ -57,10 +57,8 @@ namespace SERVER_ESCOLAR.Controllers
                 Apellidos= user.Apellidos,
                 Direccion = user.Direccion,
                 IdRol= user.IdRol,
-                IdSequencia=user.IdSequencia,
                 UsuarioBloqueado=user.UsuarioBloqueado,
                 FechaNacimiento=user.FechaNacimiento,
-                UsuarioId=user.UsuarioId,
                 Dni=user.Dni,
                 Sexo=user.Sexo,
                 Telefono=user.Telefono
@@ -94,9 +92,7 @@ namespace SERVER_ESCOLAR.Controllers
             usuarioExiste.FechaNacimiento = usuario.FechaNacimiento;
             usuarioExiste.Sexo = usuario.Sexo;
             usuarioExiste.UsuarioBloqueado = usuario.UsuarioBloqueado;
-            usuarioExiste.UsuarioId = usuario.UsuarioId;
             usuarioExiste.IdRol = usuario.IdRol;
-            usuarioExiste.IdSequencia = usuario.IdSequencia;
 
 
             await _context.SaveChangesAsync();
@@ -134,10 +130,8 @@ namespace SERVER_ESCOLAR.Controllers
                 Apellidos = usuario.Apellidos,
                 Direccion = usuario.Direccion,
                 IdRol = usuario.IdRol,
-                IdSequencia = usuario.IdSequencia,
                 UsuarioBloqueado = usuario.UsuarioBloqueado,
                 FechaNacimiento = usuario.FechaNacimiento,
-                UsuarioId = usuario.UsuarioId,
                 Dni = usuario.Dni,
                 Sexo = usuario.Sexo,
                 Telefono = usuario.Telefono
