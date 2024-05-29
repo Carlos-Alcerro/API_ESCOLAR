@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Departamento
     {
+        [Key]
         public int IdDepto { get; set; }
         public int IdMunicipio { get; set; }
 

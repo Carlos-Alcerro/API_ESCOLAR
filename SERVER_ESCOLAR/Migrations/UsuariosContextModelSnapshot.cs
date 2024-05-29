@@ -9,7 +9,7 @@ using SERVER_ESCOLAR.Models;
 
 namespace SERVER_ESCOLAR.Migrations
 {
-    [DbContext(typeof(UsuariosContext))]
+    [DbContext(typeof(Models.AppContextDB))]
     partial class UsuariosContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

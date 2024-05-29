@@ -1,21 +1,21 @@
 ﻿using Microsoft.Identity.Client;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
 
 namespace SERVER_ESCOLAR.Models
 {
     public class Usuario
     {
+        [Key]
         public int IdUsuario { get; set; }
-        public int IdRol { get; set; }
-        public int IdSequencia { get; set; }
+
+        [ForeignKey("Rol")]
+        public int? IdRol { get; set; }
+        public Rol? Rol { get; set; } = null!;
         public int UsuarioBloqueado { get; set; }
 
         public DateTime FechaNacimiento;
-
-        [MaxLength(50, ErrorMessage = "El campo nombres debe tener maxiomo 50 caracteres ")]
-        [MinLength(5, ErrorMessage = "El campo nombres no debe tener menos de 5 caracteres")]
-        public string UsuarioId { get; set; } = null!;
 
         [MaxLength(255,ErrorMessage ="El campo nombres debe tener maxiomo 255 caracteres ")]
         [MinLength(5,ErrorMessage ="El campo nombres no debe tener menos de 5 caracteres")]

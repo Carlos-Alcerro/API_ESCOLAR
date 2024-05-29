@@ -6,6 +6,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class AsignaturaRetrasada
     {
+        [Key]
         public int IdAsignaturaRetrasada { get; set; }
         public int IdAlumno { get; set; }
         public int IdGrado{ get; set; }

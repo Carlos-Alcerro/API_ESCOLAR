@@ -6,6 +6,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Alumno
     {
+        [Key]
         public int IdAlumno { get; set; }
 
         public DateTime FechaNacimiento;
@@ -144,5 +145,8 @@ namespace SERVER_ESCOLAR.Models
         public string Observaciones { get; set; } = null!;
 
         public int IdSequencia { get; set; }
+
+        public ICollection<Matricula> Matriculas { get; } = new List<Matricula>();
+
     }
 }

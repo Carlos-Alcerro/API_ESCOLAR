@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\calificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\calificaciones4x4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\asignaturaretrasada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\asignaturaretrasada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\tipomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\tipomatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\tipomatriculacondicionada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\tipomatriculacondicionada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\descuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\descuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\matriculadescuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\matriculadescuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|c:\\users\\ernesto\\desktop\\repositorio\\server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C77F95-0D96-4F6B-B4D3-9FA029BB2BAA}|SERVER_ESCOLAR\\SERVER_ESCOLAR.csproj|solutionrelative:server_escolar\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,45 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Calificaciones4x4.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
-              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
-              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Calificaciones4x4.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\DbContext.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\DbContext.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\DbContext.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T04:21:12.551Z",
+              "WhenOpened": "2024-05-29T17:36:56.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grado.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Grado.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Grado.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Grado.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Grado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:32:04.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Usuario.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Usuario.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:30:50.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoMatriculaCondicionada.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\TipoMatriculaCondicionada.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\TipoMatriculaCondicionada.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\TipoMatriculaCondicionada.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\TipoMatriculaCondicionada.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:29:24.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoMatricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\TipoMatricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\TipoMatricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\TipoMatricula.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\TipoMatricula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:28:40.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jornada.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Jornada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:28:30.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AsignaturaRetrasada.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
-              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
-              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\AsignaturaRetrasada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Matricula.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAowCwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T04:21:12.081Z",
+              "WhenOpened": "2024-05-29T17:27:09.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MatriculaDescuento.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\MatriculaDescuento.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\MatriculaDescuento.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\MatriculaDescuento.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\MatriculaDescuento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:25:56.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Descuento.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Descuento.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Descuento.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Descuento.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Descuento.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:24:46.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Banco.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Banco.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Banco.cs",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Banco.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:23:57.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Agencia.cs",
+              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs",
+              "RelativeDocumentMoniker": "SERVER_ESCOLAR\\Models\\Agencia.cs",
+              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Repositorio\\SERVER_ESCOLAR\\Models\\Agencia.cs*",
+              "RelativeToolTip": "SERVER_ESCOLAR\\Models\\Agencia.cs*",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:23:01.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

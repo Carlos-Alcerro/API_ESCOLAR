@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics.X86;
 
@@ -6,6 +7,8 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Agencia
     {
+
+        [Key]
         public int IdAgencia { get; set; }
         
         [MaxLength(50, ErrorMessage = "El campo CodigoAgencia debe tener maximo 50 caracteres ")]
@@ -18,10 +21,11 @@ namespace SERVER_ESCOLAR.Models
         [MinLength(5, ErrorMessage = "El campo DescpAgencia no debe tener menos de 5 caracteres")]
         public string DescpAgencia { get; set; } = null!;
 
-        public ICollection<Matriculas> Matricula { get; set; }
-
+        [ForeignKey("Banco")]
         public int IdBanco { get; set; }
         public Banco Banco { get; set; }  // Propiedad de navegación
+
+        public ICollection<Matricula> Matriculas { get; } = new List<Matricula>();
 
     }
 }

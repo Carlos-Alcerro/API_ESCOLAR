@@ -6,6 +6,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Colaborador
     {
+        [Key]
         public int IdColaborador { get; set; }
 
         public DateTime FechaNacimiento;

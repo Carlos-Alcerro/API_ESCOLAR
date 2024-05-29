@@ -6,6 +6,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Banco
     {
+        [Key]
         public int IdBanco { get; set; }
         public int IdSequencia { get; set; }
 
@@ -17,7 +18,9 @@ namespace SERVER_ESCOLAR.Models
         [MinLength(5, ErrorMessage = "El campo NumeroCuenta no debe tener menos de 5 caracteres")]
         public string NumeroCuenta { get; set; } = null!;
 
-        public ICollection<Agencia> Agencias { get; set; }
+        public ICollection<Agencia> Agencias { get; } = new List<Agencia>();
+
+        public ICollection<Matricula> Matriculas { get; } = new List<Matricula>();
 
     }
 }

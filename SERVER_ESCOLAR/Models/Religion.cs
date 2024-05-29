@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Religion
     {
+        [Key]
         public int IdReligion { get; set; }
 
         [MaxLength(50, ErrorMessage = "El campo NombreReligion debe tener maximo 50 caracteres ")]

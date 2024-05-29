@@ -5,7 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Interes
     {
-
+        [Key]
         public int IdInteres { get; set; }
         public int IdGrado { get; set; }
         public int IdSequencia{ get; set; }

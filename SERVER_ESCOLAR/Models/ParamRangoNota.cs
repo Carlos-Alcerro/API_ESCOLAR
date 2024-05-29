@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class ParamRangoNota
     {
+        [Key]
         public int IdRangoNota{ get; set; }
         public int RangoInicial { get; set; }
         public int RangoFinal{ get; set; }

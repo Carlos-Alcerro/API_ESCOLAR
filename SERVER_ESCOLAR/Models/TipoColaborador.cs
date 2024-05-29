@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class TipoColaborador
     {
+        [Key]
         public int IdTipoColaborador{ get; set; }
 
         [MaxLength(50, ErrorMessage = "El campo DescripcionColaborador debe tener maximo 50 caracteres ")]

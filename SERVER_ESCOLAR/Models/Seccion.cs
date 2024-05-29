@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class Seccion
     {
+        [Key]
         public int IdSeccion { get; set; }
 
         [MaxLength(50, ErrorMessage = "El campo DescpSeccion debe tener maximo 50 caracteres ")]

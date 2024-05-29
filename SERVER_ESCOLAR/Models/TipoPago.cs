@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class TipoPago
     {
+        [Key]
         public int IdTipoPago{ get; set; }
 
         [MaxLength(25, ErrorMessage = "El campo DescpTipoPago debe tener maximo 25 caracteres ")]

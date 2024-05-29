@@ -10,9 +10,9 @@ namespace SERVER_ESCOLAR.Controllers
     [ApiController]
     public class UsuariosController : ControllerBase
     {
-        private readonly UsuariosContext _context;
+        private readonly Models.AppContextDB _context;
 
-        public UsuariosController(UsuariosContext context)
+        public UsuariosController(Models.AppContextDB context)
         {
             _context = context;
         }

@@ -6,6 +6,7 @@ namespace SERVER_ESCOLAR.Models
     public class Transporte
 
     {
+        [Key]
         public int IdTransporte { get; set; }
 
         [MaxLength(50, ErrorMessage = "El campo CodigoTransporte debe tener maximo 50 caracteres ")]

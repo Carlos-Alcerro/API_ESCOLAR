@@ -5,6 +5,7 @@ namespace SERVER_ESCOLAR.Models
 {
     public class EstadoConducta
     {
+        [Key]
         public int IdEstadoConducta { get; set; }
         public int IdSequencia { get; set; }
 
