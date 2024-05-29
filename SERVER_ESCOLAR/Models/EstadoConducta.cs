@@ -12,5 +12,8 @@ namespace SERVER_ESCOLAR.Models
         [MaxLength(50, ErrorMessage = "El campo NombreColonia debe tener maximo 50 caracteres ")]
         [MinLength(5, ErrorMessage = "El campo NombreColonia no debe tener menos de 5 caracteres")]
         public string DescripcionConducta { get; set; } = null!;
+
+        public ICollection<AlumnoConducta> AlumnoConducta { get; set; }
+
     }
 }

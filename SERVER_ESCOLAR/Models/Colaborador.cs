@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
 
 namespace SERVER_ESCOLAR.Models
@@ -40,6 +41,8 @@ namespace SERVER_ESCOLAR.Models
         public string NumeroIdentidad { get; set; } = null!;
         public int IdSequencia { get; set; }
 
-        public int TipoColaborador { get; set; }
+        [ForeignKey("TipoColaborador")]
+        public int? IdTipoColaborador { get; set; }
+        public TipoColaborador? TipoColaborador { get; set; } = null!;
     }
 }

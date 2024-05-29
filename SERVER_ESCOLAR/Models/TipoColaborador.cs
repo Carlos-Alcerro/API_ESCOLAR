@@ -14,6 +14,9 @@ namespace SERVER_ESCOLAR.Models
 
         public int IdSequencia { get; set; }
 
+        public ICollection<Colaborador> Colaboradores { get; } = new List<Colaborador>();
+
+
 
     }
 }

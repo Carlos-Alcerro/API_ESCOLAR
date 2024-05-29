@@ -15,5 +15,14 @@ namespace SERVER_ESCOLAR.Models
 
         public ICollection<Matricula> Matriculas { get; } = new List<Matricula>();
 
+        public ICollection<AsignaturaGrado> AsignaturaGrado { get; set; }
+
+        public ICollection<Seccion> Secciones { get; } = new List<Seccion>();
+
+        public ICollection<AsignaturaCatedratico> AsignaturaCatedraticos { get; } = new List<AsignaturaCatedratico>();
+
+        public ICollection<AlumnoConducta> AlumnoConductas { get; set; }
+
+
     }
 }

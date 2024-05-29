@@ -148,5 +148,8 @@ namespace SERVER_ESCOLAR.Models
 
         public ICollection<Matricula> Matriculas { get; } = new List<Matricula>();
 
+        public ICollection<AlumnoConducta> AlumnoConducta { get; set; }
+
+
     }
 }

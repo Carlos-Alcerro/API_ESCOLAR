@@ -12,6 +12,10 @@ namespace SERVER_ESCOLAR.Models
         [MinLength(5, ErrorMessage = "El campo nombre_asignatura no debe tener menos de 5 caracteres")]
         public string DescpAsignatura{ get; set; } = null!;
 
-      
+        public ICollection<AsignaturaGrado> AsignaturaGrado { get; set; }
+
+        public ICollection<AlumnoConducta> AlumnoConductas { get; set; }
+
+
     }
 }
